@@ -36,8 +36,6 @@ console.log("B -> ", myArr);  // slice array
 console.log("B ", myn1);
 
 
-
-
 const myn2 = myArr.splice(1, 3)  //it manuplates the original array
 console.log("C -> ", myArr);  // splice array
 console.log("C ", myn2);
