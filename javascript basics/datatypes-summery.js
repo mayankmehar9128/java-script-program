@@ -58,5 +58,3 @@ userTwo.email = "mikejis@gmail.com"
 
 console.log(userOne.email);
 console.log(userTwo.email);
-
-
