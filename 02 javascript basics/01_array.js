@@ -32,10 +32,10 @@ const newArr = myArr.join()  // it gives the array in strings and the type array
 console.log("A -> ", myArr);  // normal array
 
 const myn1 = myArr.slice(1, 3)  // it does not manuplate the original array
-console.log("B -> ", myArr);  // slice array
-console.log("B ", myn1);
+// console.log("B -> ", myArr);  // slice array
+// console.log("B ", myn1);
 
 
 const myn2 = myArr.splice(1, 3)  //it manuplates the original array
-console.log("C -> ", myArr);  // splice array
-console.log("C ", myn2);
+// console.log("C -> ", myArr);  // splice array
+// console.log("C ", myn2);
