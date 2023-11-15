@@ -9,7 +9,7 @@ marvel_heros.push(dc_heros) // it takes the dc_heros as data its not merge it
 const allHeros = marvel_heros.concat(dc_heros)
 // console.log(allHeros);
 
-const all_new_heros = [...marvel_heros, ...dc_heros]  // concatr spread oerator(...)
+const all_new_heros = [...marvel_heros, ...dc_heros]  // concat spread oerator(...)
 // console.log(all_new_heros);
 
 
