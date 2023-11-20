@@ -44,17 +44,17 @@ let myLocation = "Bihar"
 let anotherLocation = myLocation
 anotherLocation = "Patna"
 
-console.log(myLocation);
-console.log(anotherLocation);
+console.log(myLocation);   // value is not changing because primitve value is store in a stack so it gives the copy of value it does not change the original value
+console.log(anotherLocation);   // output-> Patna
 
-let userOne = {
+let userOne = {              // this code is store in the heap
     email: "user@gmail.com",
     upi: "user@ybl"
 }
 
-let userTwo = userOne
+let userTwo = userOne   // and veriables are stores in stack
 
 userTwo.email = "mikejis@gmail.com"
 
-console.log(userOne.email);
+console.log(userOne.email);  // value is chage both the vareables is refrences to the heap so it get the original vaue it does have the copy value it dirctly refrences to the heap 
 console.log(userTwo.email);
